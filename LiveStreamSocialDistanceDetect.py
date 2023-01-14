@@ -11,6 +11,7 @@ INPUT_PATH = 0  # Access my web camara
 configFile = "MobileNetSSD_deploy.prototxt"
 modelFile = "MobileNetSSD_deploy.caffemodel"
 
+
 net = cv2.dnn.readNetFromCaffe(configFile, modelFile)
 
 
@@ -129,3 +130,12 @@ webrtc_streamer(key="Real Time", video_frame_callback=callback, media_stream_con
                     {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]}
                 ))
 
+
+image_path = "chi.jpg"
+
+st.header("Founder CHI👨🏻‍💻")
+founder_img = cv2.imread(image_path)
+st.image(founder_img[:,:,::-1],width=350)
+st.markdown("""We are two brothers **[ ZEN || CHI ]** . Very passionate about learning and building Artificial 
+              Intelligence models. Same as you like to eat your favorite food.**We believe Artificial Intelligence 
+              solved human any problem in the 21st century.**""")
