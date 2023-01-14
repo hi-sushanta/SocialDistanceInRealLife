@@ -5,6 +5,7 @@ import av
 
 from streamlit_webrtc import webrtc_streamer, RTCConfiguration
 
+st.title("Social Distance Maintenance⚠️")
 SHOW_VIDEO = True  # Display the video as it is being processed.
 INPUT_PATH = 0  # Access my web camara
 # Load in the pre-trained SSD model.
