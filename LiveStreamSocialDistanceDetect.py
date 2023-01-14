@@ -133,7 +133,7 @@ webrtc_streamer(key="Real Time", video_frame_callback=callback, media_stream_con
 
 image_path = "chi.jpg"
 
-st.header("Founder CHI👨🏻‍💻")
+st.header("FOUNDER OF CHI👨🏻‍💻")
 founder_img = cv2.imread(image_path)
 st.image(founder_img[:,:,::-1],width=350)
 st.markdown("""We are two brothers **[ ZEN || CHI ]** . Very passionate about learning and building Artificial 
